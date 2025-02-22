@@ -19,7 +19,7 @@ main{
     /*align-items: stretch;*/
 }
 .gallery img {
-    width: 100%;
+    width: 50%;
     height: auto;
     margin-bottom: 10px;
     border-radius: 8px;
@@ -46,7 +46,7 @@ p{
 }
 
 .lugar img {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-radius: 8px;
 }
@@ -57,10 +57,10 @@ p{
 }
 
 .innovacion {
-    background-color: #e2e2e2;
-    padding: 15px;
-    border-radius: 8px;
-    margin-top: 20px;
+    background-color: #a01b1b;
+    padding: 11px;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 @media (max-width: 700px){
@@ -78,5 +78,18 @@ p{
     }
     h1{
         font-size: 50px;
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    header nav ul li {
+        margin-bottom: 10px;
     }
 }
